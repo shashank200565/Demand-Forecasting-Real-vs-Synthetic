@@ -92,8 +92,6 @@ The models were evaluated using **Mean Absolute Error (MAE)**.
 | Random Forest | Real | 2.43 |
 | LSTM | Real | 5.03 |
 
-![Model Performance](Assets/MAE.png)
-
 Observation:
 
 Tree-based models performed better than the LSTM model on this dataset, likely due to strong feature engineering capturing most temporal relationships.
