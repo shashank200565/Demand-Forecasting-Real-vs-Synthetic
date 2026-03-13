@@ -69,7 +69,7 @@ A deep learning sequence model designed to capture temporal dependencies in time
 
 The LSTM model consists of stacked recurrent layers with dropout regularization.
 
-![LSTM Model Architecture](images/lstm_model_architecture.png)
+![LSTM Model Architecture](Assets/Model_Summary.png)
 
 Architecture Summary:
 
@@ -92,7 +92,7 @@ The models were evaluated using **Mean Absolute Error (MAE)**.
 | Random Forest | Real | 2.43 |
 | LSTM | Real | 5.03 |
 
-![Model Performance](images/model_performance.png)
+![Model Performance](Assets/MAE.png)
 
 Observation:
 
@@ -104,7 +104,7 @@ Tree-based models performed better than the LSTM model on this dataset, likely d
 
 The LSTM model captures overall trends but struggles with sharp demand fluctuations.
 
-![Actual vs Predicted Demand](images/actual_vs_predicted.png)
+![Actual vs Predicted Demand](Assets/Actual vs Predicted Demand.png)
 
 ---
 
@@ -112,7 +112,7 @@ The LSTM model captures overall trends but struggles with sharp demand fluctuati
 
 The demand trends for real and synthetic datasets show similar statistical patterns.
 
-![Real vs Synthetic Demand](images/real_vs_synthetic_trend.png)
+![Real vs Synthetic Demand](images/realvssynthetic_trend.png)
 
 This indicates that the synthetic dataset preserves key temporal demand characteristics.
 
