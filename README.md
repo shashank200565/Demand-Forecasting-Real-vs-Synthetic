@@ -102,7 +102,7 @@ Tree-based models performed better than the LSTM model on this dataset, likely d
 
 The LSTM model captures overall trends but struggles with sharp demand fluctuations.
 
-![Actual vs Predicted Demand](Assets/Actual vs Predicted Demand.png)
+![Actual vs Predicted Demand](Assets/Actual_vs_Predicted_Demand.png)
 
 ---
 
@@ -110,7 +110,7 @@ The LSTM model captures overall trends but struggles with sharp demand fluctuati
 
 The demand trends for real and synthetic datasets show similar statistical patterns.
 
-![Real vs Synthetic Demand](images/realvssynthetic_trend.png)
+![Real vs Synthetic Demand](Assets/real_vs_synthetic_trend.png)
 
 This indicates that the synthetic dataset preserves key temporal demand characteristics.
 
@@ -120,7 +120,7 @@ This indicates that the synthetic dataset preserves key temporal demand characte
 
 To compare seasonal behavior, monthly demand distributions were analyzed.
 
-![Monthly Distribution](images/monthly_distribution.png)
+![Monthly Distribution](Assets/monthly_distribution.png)
 
 The distributions show that the synthetic dataset maintains similar seasonal variability.
 
@@ -157,6 +157,3 @@ This analysis verifies that the synthetic data maintains similar statistical pro
 - Scikit-learn
 - TensorFlow / Keras
 
----
-
-# Repository Structure
