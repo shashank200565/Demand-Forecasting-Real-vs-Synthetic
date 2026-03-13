@@ -110,7 +110,7 @@ The LSTM model captures overall trends but struggles with sharp demand fluctuati
 
 The demand trends for real and synthetic datasets show similar statistical patterns.
 
-![Real vs Synthetic Demand](Assets/real_vs_synthetic_trend.png)
+![Real vs Synthetic Demand](Assets/Demand_Real_vs_Syn.png)
 
 This indicates that the synthetic dataset preserves key temporal demand characteristics.
 
@@ -120,7 +120,7 @@ This indicates that the synthetic dataset preserves key temporal demand characte
 
 To compare seasonal behavior, monthly demand distributions were analyzed.
 
-![Monthly Distribution](Assets/monthly_distribution.png)
+![Monthly Distribution](Assets/Monthly_Real_vs_Syn.png)
 
 The distributions show that the synthetic dataset maintains similar seasonal variability.
 
